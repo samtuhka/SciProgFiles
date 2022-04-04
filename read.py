@@ -1,8 +1,8 @@
 from js import fetch
 from matplotlib import image
+import numpy as np
 
-#change the filename to the one in the relevant exercise
-filename = "hy_admission_stats_2017.csv"
+filename = "hy_admission_stats_2017.csv" #change the filename to the one in the relevant exercise
 url= "https://raw.githubusercontent.com/samtuhka/SciProgFiles/main/" + filename
 
 res = await fetch(url)
