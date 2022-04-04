@@ -1,7 +1,7 @@
 from js import fetch
 from matplotlib import image
 
-#change the filenmame to the one in the relevant exercise
+#change the filename to the one in the relevant exercise
 filename = "hy_admission_stats_2017.csv"
 url= "https://raw.githubusercontent.com/samtuhka/SciProgFiles/main/" + filename
 
